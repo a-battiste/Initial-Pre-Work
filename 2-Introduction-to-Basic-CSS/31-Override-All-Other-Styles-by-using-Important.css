@@ -1,0 +1,19 @@
+/* I learned that adding '!important' after a style declaration prioritizes that style over all conflicting styles. This is useful when you need to override a CSS library for a specific CSS. */
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink !important;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
