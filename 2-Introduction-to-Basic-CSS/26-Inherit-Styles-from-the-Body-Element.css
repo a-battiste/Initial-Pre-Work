@@ -1,0 +1,12 @@
+/* I learned that elements within the body element can inherit styles from the body element, such as font-color. */
+
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+
+<h1>Hello World</h1>
