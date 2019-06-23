@@ -1,0 +1,14 @@
+/* I learned that including fallbacks is useful for increasing browser compatibility in case a browser does not accept a certain property. This is done by placing a more widely supported value right before the property declaration. */
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
