@@ -1,0 +1,7 @@
+/* I learned that colors can be represented with RGB values, which are 3 numbers, separated by commas, with values: 0-255. */
+
+<style>
+  body {
+    background-color: rgb(0,0,0);
+  }
+</style>
