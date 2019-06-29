@@ -1,0 +1,12 @@
+ // I learned that a do while loop is almost the same as a while loop, except the code in loop will run for the first loop, even if the variable value doesn't pass the condition condition/while statement.
+
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+
+ do {
+  myArray.push(i);
+  i++;
+ } while (i < 5);
